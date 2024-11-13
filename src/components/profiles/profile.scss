@@ -1,0 +1,136 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-container {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #555555;
+}
+
+.profile-content {
+    // background: #000;
+    // justify-content: center;
+    display: flex;
+
+}
+
+.left-title-container, .right-title-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-title-container {
+    margin-left: 70px;
+}
+
+.left-title-container {
+    width: 200px;
+    font-size: 18px;
+    color: #555555;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.left-text {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.right-title-container {
+    color: #000000;
+    width: 380px;
+    font-size: 18px;
+    color: #555555;
+    align-items: flex-start;
+}
+
+.right-text-username {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.right-text-name {
+    margin-bottom: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.right-text-email, .right-text-phone, .right-text-birth {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+}
+
+.right-text-gender {
+    margin-bottom: 18px;
+    height: 31px;
+    text-align: left;
+    width: 100%;
+}
+
+.save-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ant-input:focus {
+    border-color: #addeff;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(87,168,233, .2);
+    box-shadow: 0 0 0 2px rgba(87,168,233, .2);
+}
+
+.email-change, .phone-change, .birth-change {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #0f8fff;
+}
+
+.email-change:hover, .phone-change:hover, .birth-change:hover {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #0e65b1;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.all-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.select-image {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.idk {
+    display: flex;
+    width: 1040px;
+    justify-content: center;
+    align-items: center;
+    // background: red;
+}
